@@ -1,1 +1,295 @@
-Chapter3 PostEdit
+$ mkdir Sotry
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop
+$ mkdir Story
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop
+$ cd Story
+$ touch chapter1.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story
+$ open -a /Applications/Visual\ Studio\ Code.app chapter1.txt
+bash: open: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story
+$ open chapter1.text
+bash: open: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story
+$ code chapter1.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story
+$ git init
+Initialized empty Git repository in C:/Users/neoshreyast/Desktop/Story/.git/
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ ls -a
+./  ../  .git/  chapter1.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git add chapter1.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git commit -m "Complete  Chapter 1"
+[master (root-commit) fd4ba49] Complete  Chapter 1
+ Committer: Shreyas Tare <neoshreyast@neologic.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter1.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git log
+commit fd4ba4929b4f598dbb1ec63ac55e9c5ce5654bd2 (HEAD -> master)
+Author: Shreyas Tare <neoshreyast@neologic.com>
+Date:   Wed Mar 11 23:44:35 2026 +0530
+
+    Complete  Chapter 1
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ touch chapter2.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ chapter3.txt
+bash: chapter3.txt: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ touch chapter3.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ code chapter2.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ code chapter3.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$
+ *  History restored 
+
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd .. Desktop
+bash: cd: too many arguments
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd% Desktop
+bash: cd%: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd ~
+
+neoshreyast@NEOLA111 MINGW64 ~
+$ 
+
+neoshreyast@NEOLA111 MINGW64 ~
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd% Desktop
+bash: cd%: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd ~
+
+neoshreyast@NEOLA111 MINGW64 ~
+$
+
+neoshreyast@NEOLA111 MINGW64 ~
+$ cd Desktop
+
+neoshreyast@NEOLA111 MINGW64 ~/Downloads/Web Development
+$ cd ~
+
+neoshreyast@NEOLA111 MINGW64 ~
+$
+
+neoshreyast@NEOLA111 MINGW64 ~
+$ cd Desktop
+
+neoshreyast@NEOLA111 MINGW64 ~
+$
+
+neoshreyast@NEOLA111 MINGW64 ~
+$ cd Desktop
+$
+
+neoshreyast@NEOLA111 MINGW64 ~
+$ cd Desktop
+neoshreyast@NEOLA111 MINGW64 ~
+$ cd Desktop
+
+$ cd Desktop
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop
+$ cd Story
+neoshreyast@NEOLA111 MINGW64 ~/Desktop
+$ cd Story
+$ cd Story
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ open chapter2.txt
+bash: open: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ start chapter2.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ touch chapter2.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ open chapter2.txt
+bash: open: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ open chapter2.txt
+bash: open: command not found
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ start chapter2.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ start chapter3.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter2.txt
+        chapter3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git add .
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   chapter2.txt
+        new file:   chapter3.txt
+
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git commit -m "complete chapter2 & 3"
+[master aab382d] complete chapter2 & 3
+ Committer: Shreyas Tare <neoshreyast@neologic.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+)
+ create mode 100644 chapter2.txt
+ create mode 100644 chapter3.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git log
+commit aab382d76e77a8261fda38dca0eb88fe544375e3 (HEAD -> master)
+Author: Shreyas Tare <neoshreyast@neologic.com>
+Date:   Thu Mar 12 08:08:51 2026 +0530
+
+    complete chapter2 & 3
+
+commit fd4ba4929b4f598dbb1ec63ac55e9c5ce5654bd2
+Author: Shreyas Tare <neoshreyast@neologic.com>
+Date:   Wed Mar 11 23:44:35 2026 +0530
+
+    Complete  Chapter 1
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ start chapter3.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   chapter3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git diff chapter3.txt
+diff --git a/chapter3.txt b/chapter3.txt
+index d6f81d6..1141e1a 100644
+--- a/chapter3.txt
++++ b/chapter3.txt
+@@ -1 +1,2 @@
+-Chapter3 PostEdit
+\ No newline at end of file
++Chapter3 PostEdit
++zaxsfcdvs 
+\ No newline at end of file
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ git checkout chapter3.txt
+Updated 1 path from the index
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$ start chapter3.txt
+
+neoshreyast@NEOLA111 MINGW64 ~/Desktop/Story (master)
+$
